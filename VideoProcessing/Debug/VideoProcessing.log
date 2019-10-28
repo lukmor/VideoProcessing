@@ -1,0 +1,16 @@
+﻿Build started 28.10.2019 14:51:28.
+     1>Project "C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\VideoProcessing\VideoProcessing.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\Debug\VideoProcessing.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\build\x64\vc14\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_world343d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\Debug\VideoProcessing.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\Debug\VideoProcessing.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\VideoProcessing.obj
+     1>VideoProcessing.obj : error LNK2019: unresolved external symbol "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z) referenced in function "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ)
+     1>VideoProcessing.obj : error LNK2019: unresolved external symbol "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z) referenced in function "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z)
+     1>VideoProcessing.obj : error LNK2019: unresolved external symbol "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ) referenced in function "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ)
+     1>VideoProcessing.obj : error LNK2019: unresolved external symbol "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ) referenced in function "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ)
+     1>VideoProcessing.obj : error LNK2019: unresolved external symbol "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z) referenced in function _main
+     1>C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\Debug\VideoProcessing.exe : fatal error LNK1120: 5 unresolved externals
+     1>Done Building Project "C:\Users\lmora\Documents\Visual Studio 2013\Projects\VideoProcessing\VideoProcessing\VideoProcessing.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.54

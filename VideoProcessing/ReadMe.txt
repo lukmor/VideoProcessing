@@ -1,0 +1,1 @@
+Run with 3 arguments: name of file, x dimension, y dimension
